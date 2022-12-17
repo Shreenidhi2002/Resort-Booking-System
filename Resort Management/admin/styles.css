@@ -1,0 +1,95 @@
+body{
+    /* background-image: url(resort.jfif); */
+
+    /* background-size: cover; */
+    background-color: peachpuff;
+    /*backdrop-filter: blur(5px) ;
+    z-index: 1;*/
+    
+    
+
+}
+
+#col4{
+    
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 20%;
+    background: transparent;
+}
+#out{
+    border-width: 1px;
+    /*border-color:rosybrown;*/
+    border-style: solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 200px;
+    text-align: center;
+    /*background-color: ;*/
+    /*box-shadow  :5px  white;*/
+    background: rgba(0,0,0,0.6);
+    /*text-shadow: 2px   2px 2px rgb(241, 236, 237);*/
+    border-radius: 20px;
+    color: white;
+   
+
+}
+#in{
+    margin-left: 450px;
+    margin-right: 450px; 
+    text-align: center; 
+    border-color:white;
+    border-style:solid
+    ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 1px;
+    background-color:transparent;
+    /*box-shadow  :5px  white;*/
+   /* text-shadow: 2px 2px 2px rgb(241, 236, 237);*/
+   background: rgba(0,0,0,0.6);
+    border-radius: 20px;
+
+
+}
+.col{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+.col1{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+.col2{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+.col3{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+::placeholder{
+    color: #ffff;
+}

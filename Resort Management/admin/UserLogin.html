@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+    /* background-image: url(image/s.jpg);  */
+    background-color: rgb(241, 189, 198);;
+    background-size: cover;
+    /*backdrop-filter: blur(5px) ;
+    z-index: 1;*/
+    
+    
+}
+#out{
+    border-width: 1px;
+    /*border-color:rosybrown;*/
+    border-style: solid;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 200px;
+    text-align: center;
+    /*background-color: ;*/
+    /*box-shadow  :5px  white;*/
+    background: rgba(0,0,0,0.6);
+    /*text-shadow: 2px   2px 2px rgb(241, 236, 237);*/
+    border-radius: 20px;
+    color: white;
+   
+
+}
+#in{
+    margin-left: 450px;
+    margin-right: 450px; 
+    text-align: center; 
+    border-color:white;
+    border-style:solid
+    ;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 1px;
+    background-color:transparent;
+    /*box-shadow  :5px  white;*/
+   /* text-shadow: 2px 2px 2px rgb(241, 236, 237);*/
+   background: rgba(0,0,0,0.6);
+    border-radius: 20px;
+
+
+}
+#col{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+#col1{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+#col2{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+#col3{
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 75%;
+    background: transparent;
+}
+::placeholder{
+    color: #ffff;
+}
+#col4{
+    
+    background-color: white;
+    color:white;
+    padding: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    width: 20%;
+    background: transparent;
+}
+    </style>
+</head>
+<body >
+<div id="out" style="border-radius: 30px;">
+        <h2> <u>Login</u></h2>
+        </div><br>
+        <div id="in">
+            <form action="backend.php" method="post">
+                <br>
+                <i><b><input type="email" id="col" name="email" placeholder="Enter email" ><br><br>
+                    <!-- <input type="email" id="col1" name="Mail" placeholder="Enter your mail id"><br><br> -->
+                   <input type="password" id="col2" name="password"  placeholder=" Enter your password:"><br><br>
+                    <!-- <input type="password" id="col3" name="RePassword" placeholder="Re-Enter your password:"><br><br></b></i> -->
+                    <center><input type="submit" id="col4" name="submit"  placeholder=" Submit"></center><br><br>
+                    
+                    
+                    <a href="index.html" style="color: white;font-size: small;">Go to Website</a> <br><br>
+             
+
+            </form>
+        </div>
+</body>
+</html>

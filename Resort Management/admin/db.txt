@@ -1,0 +1,23 @@
+dbname    :     resortdata
+
+
+
+table 1        : admin (fname varchar,mname varchar ,
+lastname varchar ,userid varchar ,password varchar,last login date and time
+primary key(userid,password)
+
+
+table 2    :     roomlist
+id int,room name varchar(eg :Room1),type,description,price,image path,status
+(active-1,inactive -2),date created and date updated
+primary-id
+
+table 3  :  reservationlist
+id ,roomid   ,check in,checkout,fullname,contact,email,address,status,
+datecreated,date updated
+primary-id
+
+
+
+
+
